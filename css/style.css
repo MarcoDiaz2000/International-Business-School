@@ -42,6 +42,13 @@ li {
   padding-right: 70px;
 }
 
+.b-desktop {
+  display: none;
+}
+.b-mobile {
+  display: block;
+}
+
 .padding-0 {
   padding: 0px;
 }
@@ -81,8 +88,17 @@ li {
 .banner-wrap-text {
   font-size: 14px;
   padding: 19px;
-  background-color: #d3d3d3;
+  background-color: #f3f3f3;
   border: 2px solid #fff;
+  border-radius: 0%;
+  margin-bottom: 20px;
+}
+
+.banner-wrap-text-about {
+  font-size: 14px;
+  padding: 19px;
+  background-color: #f3f3f3;
+  border: 2px solid #d3d3d3;
   border-radius: 0%;
   margin-bottom: 20px;
 }
@@ -210,7 +226,18 @@ footer {
   margin-bottom: 50px;
 }
 
-@media (min-width: 700px) {
+.logo-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.img-separator {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
   .banner-title {
     font-size: 80px;
   }
@@ -234,5 +261,13 @@ footer {
   .text-link {
     font-size: 20px;
     border-color: #ec5242;
+  }
+
+  .b-desktop {
+    display: block;
+  }
+
+  .b-mobile {
+    display: none;
   }
 }
