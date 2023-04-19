@@ -216,11 +216,11 @@ li {
 }
 
 .program-btn {
-  justify-content: center importan !;
-  align-items: center importan !;
+  justify-content: center !important;
+  align-items: center !important;
   text-align: center;
   margin: 0%;
-  background-color: #ec5242 importan !;
+  background-color: #ec5242 !important;
   color: white;
   padding: 25px;
   margin-bottom: 50px;
