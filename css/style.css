@@ -67,7 +67,7 @@
 }
 
 .container-fluid {
-  padding: 0px;
+  padding: 0%;
 }
 
 .navbar-toggler {
@@ -104,12 +104,13 @@ li {
 .b-desktop {
   display: none;
 }
+
 .b-mobile {
   display: block;
 }
 
 .padding-0 {
-  padding: 0px;
+  padding: 0%;
 }
 
 .logo {
@@ -138,7 +139,7 @@ li {
   font-size: 40px;
   font-weight: 700;
   color: #ec5242;
-  margin-top: 0px;
+  margin-top: 0%;
   background: url('../images/backletters5.jpg');
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -203,7 +204,6 @@ li {
   width: 50px;
   align-items: center;
   justify-content: center;
-  size: 3px;
   padding-bottom: 3px;
   margin-bottom: 30px;
 }
@@ -216,11 +216,11 @@ li {
 }
 
 .program-btn {
-  justify-content: center importan!;
-  align-items: center importan!;
+  justify-content: center importan !;
+  align-items: center importan !;
   text-align: center;
   margin: 0%;
-  background-color: #ec5242 importan!;
+  background-color: #ec5242 importan !;
   color: white;
   padding: 25px;
   margin-bottom: 50px;
