@@ -1,6 +1,58 @@
 @import url('https://fonts.cdnfonts.com/css/cocogoose');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+.menu-mobile-wrap {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(9, 9, 9, 0.9);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-position {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  font-size: 3rem;
+  color: white;
+}
+
+.list-mobile {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-toggler {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 24px;
+  height: 3px;
+  background-color: #000;
+  margin-bottom: 4px;
+}
+
+@media (max-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
+
+  .custom-toggler {
+    display: block;
+  }
+}
+
 * {
   color: #272a31;
   font-family: 'Lato', sans-serif;
@@ -14,31 +66,6 @@
 
 .container-fluid {
   padding: 0px;
-}
-
-.fullscreen-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 255, 0.8);
-  display: none;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-}
-
-.fullscreen-menu .close-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 2rem;
-  cursor: pointer;
-}
-
-.fullscreen-menu .navbar-nav {
-  text-align: center;
 }
 
 .navbar-toggler {

@@ -1,6 +1,6 @@
 
-  document.querySelector('.navbar-toggler').addEventListener('click', function() {
-    document.getElementById('fullscreenMenu').style.display = 'flex';
+document.querySelector('.custom-toggler').addEventListener('click', function() {
+  document.getElementById('fullscreenMenu').style.display = 'flex';
   });
 
   document.getElementById('closeMenu').addEventListener('click', function() {

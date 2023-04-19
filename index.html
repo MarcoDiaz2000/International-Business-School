@@ -16,9 +16,11 @@
               <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                   <a class="navbar-brand d-none d-sm-block" href="/index.html"><img class="logo" src="./images/logo1.jpg" alt="logo"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
+                  <div class="custom-toggler">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                  </div>
                   <div class="collapse navbar-collapse d-none d-lg-block" id="navbarDesktop">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mainmenu">
                         <li>
@@ -45,10 +47,10 @@
                 </div>
               </nav>
             </div>
-            <div class="fullscreen-menu" id="fullscreenMenu">
-              <span class="close-btn" id="closeMenu">&times;</span>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mainmenu">
+
+            <div id="fullscreenMenu" class="menu-mobile-wrap">
+                <span id="closeMenu" class="menu-position x-close">&times;</span>
+                <ul class="mainmenu list-mobile">
                     <li>
                         <a class="nav-link active red text-link-mobile" aria-current="page" href="/about.html">About</a>
                       </li>
@@ -66,6 +68,7 @@
                       </li>   
                 </ul>
               </div>
+
             </div>
           </header>        
 
