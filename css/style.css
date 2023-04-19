@@ -6,6 +6,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+.partner-about {
+  display: block;
+}
+
 .menu2 {
   color: white;
   padding-right: 5px;
@@ -167,9 +171,6 @@ li {
   margin-bottom: 0%;
 }
 
-/* .banner-date {
-} */
-
 .banner-date-title {
   font-size: 30px;
   font-weight: 900;
@@ -285,6 +286,14 @@ footer {
   margin-bottom: 50px;
 }
 
+.footer-about {
+  background-color: #fff;
+}
+
+.footer-text-about {
+  color: #3d3d3d;
+}
+
 .logo-text {
   font-size: 20px;
   font-weight: 600;
@@ -380,5 +389,22 @@ footer {
   .twitter-page {
     width: 20px;
     height: 17px;
+  }
+
+  .partner-about {
+    display: none;
+  }
+
+  .footer-about {
+    background-color: #3d3d3d;
+  }
+
+  .footer-text-about {
+    color: #fff;
+  }
+
+  .padding-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
