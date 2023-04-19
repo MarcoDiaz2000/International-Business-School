@@ -15,6 +15,11 @@
   padding-right: 5px;
 }
 
+.nav-fix {
+  height: 100px;
+  padding-left: 20px;
+}
+
 .menu-mobile-wrap {
   display: none;
   position: fixed;
@@ -59,8 +64,8 @@
 
 .bar {
   display: block;
-  width: 24px;
-  height: 3px;
+  width: 29px;
+  height: 5px;
   background-color: #000;
   margin-bottom: 4px;
 }
