@@ -10,47 +10,66 @@
 </head>
 <body class="container-fluid">
     <section class="header bg-header">
+
         <header class="container-fluid bg-navbar bg-white shadow p-1 mb-3 bg-body rounded">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                      <a class="navbar-brand d-none d-sm-block" href="/index.html"><img class="logo" src="./images/logo1.jpg" alt="logo"></a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mainmenu">
-                          <li class="nav-item">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand d-none d-sm-block" href="/index.html"><img class="logo" src="./images/logo1.jpg" alt="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-none d-lg-block" id="navbarDesktop">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mainmenu">
+                        <li>
                             <a class="nav-link active red text-link" aria-current="page" href="/about.html">About</a>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-link" href="#program">Program</a>
+                          <li>
+                            <a class="nav-link" href="#program">Program</a>
                           </li>
-                          <li class="nav-item">
+                          <li>
                             <a class="nav-link text-link" href="#speaker">Join</a>
                           </li> 
-                          <li class="nav-item">
+                          <li>
                             <a class="nav-link text-link" href="#partner">Sponsor</a>
                           </li>     
-                          <li class="nav-item">
+                          <li>
                             <a class="nav-link text-link" href="#footer">News</a>
                           </li>   
 
                           <li class="padding-0">
                             <button class="btn btn-outline-danger border-btn" type="submit">IBS Campaing</button>
                           </li>
-                        </ul>
-                      </div>
-                      <div id="menu-overlay"></div>
-                      <div class="hamburger">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                      </div>
-                    </div>
-                  </nav>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
             </div>
-        </header>
+            <div class="fullscreen-menu" id="fullscreenMenu">
+              <span class="close-btn" id="closeMenu">&times;</span>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mainmenu">
+                    <li>
+                        <a class="nav-link active red text-link-mobile" aria-current="page" href="/about.html">About</a>
+                      </li>
+                      <li>
+                        <a class="nav-link text-link-mobile" href="#program">Program</a>
+                      </li>
+                      <li>
+                        <a class="nav-link text-link-mobile" href="#speaker">Join</a>
+                      </li> 
+                      <li>
+                        <a class="nav-link text-link-mobile" href="#partner">Sponsor</a>
+                      </li>     
+                      <li>
+                        <a class="nav-link text-link-mobile" href="#footer">News</a>
+                      </li>   
+                </ul>
+              </div>
+            </div>
+          </header>        
+
+
         <div class="banner container">
             <div class="banner-wrap">
                 <p class="banner-subtitle">"Grow Your International Business"</p>

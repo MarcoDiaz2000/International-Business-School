@@ -1,4 +1,19 @@
-document.querySelector('#navbarSupportedContent button.navbar-toggler').addEventListener('click', function() {
-    document.querySelector('#menu-overlay').style.display = 'block';
+
+  document.querySelector('.navbar-toggler').addEventListener('click', function() {
+    document.getElementById('fullscreenMenu').style.display = 'flex';
   });
-  
+
+  document.getElementById('closeMenu').addEventListener('click', function() {
+    document.getElementById('fullscreenMenu').style.display = 'none';
+  });
+
+  document.querySelectorAll('.mainmenu a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      document.getElementById('fullscreenMenu').style.display = 'none';
+    });
+  });
+
+
+
+
+
