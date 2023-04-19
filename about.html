@@ -11,40 +11,74 @@
 <body class="container-fluid">
     <section class="header bg-header">
         <header class="container-fluid bg-navbar bg-white shadow p-1 mb-3 bg-body rounded">
+            <div class="top-menu">
+                <ul class="top-menu-wrap">
+                  <li class="menu2"><a><img class="facebook-page" src="./images/iconfacebook.png" alt="facebook"></a></li>
+                  <li class="menu2"><a><img class="twitter-page" src="./images/icontwitter.png" alt="twitter"></a></li>
+                  <li class="menu2"><a>English</a></li>
+                  <li class="menu2"><a>My Page</a></li>
+                  <li class="menu2"><a>Logout</a></li>
+                </ul>
+              </div>
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                      <a class="navbar-brand d-none d-sm-block" href="/index.html"><img class="logo" src="./images/logo1.jpg" alt="logo"></a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
+              <nav class="navbar navbar-expand-lg navbar-light">           
+                <div class="container-fluid">
+                  <a class="navbar-brand d-none d-sm-block" href="/index.html"><img class="logo" src="./images/logo1.jpg" alt="logo"></a>
+                  <div class="custom-toggler">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                  </div>
+                  <div class="collapse navbar-collapse d-none d-lg-block" id="navbarDesktop">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mainmenu">
+                        <li>
                             <a class="nav-link active red text-link" aria-current="page" href="/about.html">About</a>
                           </li>
-                          <li class="nav-item">
-                            <a class="nav-link text-link" href="#program">Program</a>
+                          <li>
+                            <a class="nav-link" href="#program">Program</a>
                           </li>
-                          <li class="nav-item">
+                          <li>
                             <a class="nav-link text-link" href="#speaker">Join</a>
                           </li> 
-                          <li class="nav-item">
+                          <li>
                             <a class="nav-link text-link" href="#partner">Sponsor</a>
                           </li>     
-                          <li class="nav-item">
+                          <li>
                             <a class="nav-link text-link" href="#footer">News</a>
                           </li>   
 
                           <li class="padding-0">
                             <button class="btn btn-outline-danger border-btn" type="submit">IBS Campaing</button>
                           </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
             </div>
-        </header>
+
+            <div id="fullscreenMenu" class="menu-mobile-wrap">
+                <span id="closeMenu" class="menu-position x-close">&times;</span>
+                <ul class="mainmenu list-mobile">
+                    <li>
+                        <a class="nav-link active red text-link-mobile" aria-current="page" href="/about.html">About</a>
+                      </li>
+                      <li>
+                        <a class="nav-link text-link-mobile" href="#program">Program</a>
+                      </li>
+                      <li>
+                        <a class="nav-link text-link-mobile" href="#speaker">Join</a>
+                      </li> 
+                      <li>
+                        <a class="nav-link text-link-mobile" href="#partner">Sponsor</a>
+                      </li>     
+                      <li>
+                        <a class="nav-link text-link-mobile" href="#footer">News</a>
+                      </li>   
+                </ul>
+              </div>
+
+            </div>
+          </header>
         <div class="banner container">
             <div class="banner-wrap text-center">
                 <p class="banner-subtitle">"Grow Your International Business"</p>
@@ -67,7 +101,7 @@
         </div>
     </section>
  
-    <section id="speaker" class="speaker container-fluid">
+    <section class="speaker container-fluid">
         <div class="container">
             <div class="row justify-content-center text-center">
                 <h2 class="speaker-title">Creative Commons <br> International Business School logo</h2>
@@ -86,7 +120,7 @@
         </div>
     </section>
 
-    <section id="speaker" class="speaker container-fluid">
+    <section class="speaker container-fluid">
         <div class="container">
             <div class="row justify-content-center text-center">
                 <h2 class="speaker-title">See the last IBS Conference</h2>
