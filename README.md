@@ -19,7 +19,6 @@ Hello, I´m Marco Díaz
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -36,32 +35,21 @@ In this capstone project I am going to build is based on an online website for a
 
 ## 🛠 Built With <a name="built-with"></a>
 
+
+
 ### Tech Stack <a name="tech-stack"></a>
 
-> For this project I use html, css, JavaScript and Boostrap.
+HTML, CSS & JAVASCRIPT
 
-<details>
-  <summary>HTML</summary>
-  <ul>
-    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>CSS</summary>
-  <ul>
-    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
-  </ul>
-</details>
+GitHub & Visual Studio Code
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Portafomio Web]**
-- **[Movile ]**
-- **[Responsive website]**
-- **[Deployment in GiyHub Page]**
+- Navbar
+- Mobile responsive
+- DOM Manipulation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,7 +57,7 @@ In this capstone project I am going to build is based on an online website for a
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://marcodiaz2000.github.io/portfolio/)
+- [Live Demo Link](https://marcodiaz2000.github.io/International-Business-School/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +88,7 @@ Install Node Js on your local computer.
 
 Install this project with:
 
-<pre> git clone https://github.com/MarcoDiaz2000/portafolio.git</pre>
+<pre> git clone https://github.com/MarcoDiaz2000/International-Business-School.git</pre>
 
 ### Usage
 
@@ -112,7 +100,7 @@ To run tests, run a live server on your computer..
 
 ### Deployment
 
-You can deploy this project in this link <a href="https://marcodiaz2000.github.io/portfolio/">www.marcodiaz2000.github.io/portfolio/</a>
+You can deploy this project in this link <a href="https://marcodiaz2000.github.io/International-Business-School/">www.marcodiaz2000.github.io/portfolio/International-Business-School</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,22 +116,6 @@ You can deploy this project in this link <a href="https://marcodiaz2000.github.i
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Project 1: Setup and mobile version skeleton]**
-- [ ] **[Project 2: Mobile version]**
-- [ ] **[Project 3: Contact form (pair programming)]**
-- [ ] **[Project 4: Desktop version]**
-- [ ] **[Project 5: Application deploy]**
-- [ ] **[Project 6: Evaluate accessibility (pair programming)]**
-- [ ] **[Project 7: Mobile menu (pair programming)]**
-- [ ] **[Project 8: Details modal (pair programming)]**
-- [ ] **[Project 9: Validate contact form (pair programming)]**
-- [ ] **[Project 10: Preserve data in the browser (pair programming)]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -167,7 +139,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank Microverse for this project
+> I would like to give Credit to original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
