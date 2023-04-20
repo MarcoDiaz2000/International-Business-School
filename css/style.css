@@ -1,0 +1,415 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+}
+
+.partner-about {
+  display: block;
+}
+
+.menu2 {
+  color: white;
+  padding-right: 5px;
+}
+
+.nav-fix {
+  height: 100px;
+  padding-left: 20px;
+}
+
+.menu-mobile-wrap {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(9, 9, 9, 0.9);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-position {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  font-size: 3rem;
+  color: white;
+}
+
+.list-mobile {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.top-menu {
+  display: none;
+}
+
+.top-menu-wrap {
+  display: none;
+}
+
+.custom-toggler {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 29px;
+  height: 5px;
+  background-color: #000;
+  margin-bottom: 4px;
+}
+
+.bg-navbar {
+  height: 130px;
+  padding-bottom: 90px;
+}
+
+.container-fluid {
+  padding: 0%;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.bg-header {
+  background: url('../images/backheader2.jpg');
+  width: 100%;
+  height: auto;
+}
+
+.text-link {
+  font-size: 30px;
+}
+
+.text-link-mobile {
+  font-size: 40px;
+  color: white;
+}
+
+.red {
+  color: #ec5242 !important;
+}
+
+.white {
+  color: white;
+}
+
+li {
+  padding-right: 70px;
+}
+
+.b-desktop {
+  display: none;
+}
+
+.b-mobile {
+  display: block;
+}
+
+.padding-0 {
+  padding: 0%;
+}
+
+.logo {
+  width: 100px;
+}
+
+.border-btn {
+  border: 4px solid #ec5242;
+  border-radius: 0%;
+}
+
+.bg-banner {
+  background: url('../images/fondo1.jpg');
+  width: 100%;
+  height: auto;
+}
+
+.banner-subtitle {
+  font-size: 30px;
+  color: #ec5242;
+  margin-top: 150px;
+}
+
+.banner-title {
+  font-family: 'cocogoose', 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #ec5242;
+  margin-top: 0%;
+  background: url('../images/backletters5.jpg');
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-wrap-text {
+  font-size: 14px;
+  padding: 19px;
+  background-color: #f3f3f3;
+  border: 2px solid #fff;
+  border-radius: 0%;
+  margin-bottom: 20px;
+}
+
+.banner-wrap-text-about {
+  font-size: 14px;
+  padding: 19px;
+  background-color: #f3f3f3;
+  border: 2px solid #d3d3d3;
+  border-radius: 0%;
+  margin-bottom: 20px;
+}
+
+.banner-text {
+  margin-bottom: 0%;
+}
+
+.banner-date-title {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.banner-date-text {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.header {
+  padding-bottom: 120px;
+}
+
+.program {
+  background: url('../images/backprogram.jpg');
+  width: 100%;
+  height: auto;
+}
+
+.program-title {
+  font-size: 33px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.hr-program {
+  color: #ec5242;
+  background-color: #ec5242;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3px;
+  margin-bottom: 30px;
+}
+
+.program-boxs {
+  padding: 20px;
+  background-color: #d3d3d348;
+  border-radius: 2px;
+  margin: 5px 20px;
+}
+
+.program-btn {
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  margin: 0%;
+  background-color: #ec5242 !important;
+  color: white;
+  padding: 25px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  width: 300px;
+}
+
+.speaker-title {
+  font-size: 33px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.speaker-subtitle {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.speaker-text {
+  font-size: 14px;
+  color: #ec5242;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.speaker-hr {
+  width: 25px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.speaker-text2 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.speakers-box {
+  margin-bottom: 40px;
+}
+
+.partner {
+  background-color: #3d3d3d;
+  padding-bottom: 50px;
+}
+
+.partner-box {
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  padding-top: 5px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-about {
+  background-color: #fff;
+}
+
+.footer-text-about {
+  color: #3d3d3d;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.img-separator {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
+
+  .custom-toggler {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner-title {
+    font-size: 80px;
+  }
+
+  .banner-subtitle {
+    font-size: 50px;
+  }
+
+  .program-boxs {
+    padding: 3px;
+    margin: 5px 2px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .program-btn {
+    background-color: #d3d3d300;
+  }
+
+  .text-link {
+    font-size: 20px;
+    border-color: #ec5242;
+  }
+
+  .b-desktop {
+    display: block;
+  }
+
+  .b-mobile {
+    display: none;
+  }
+
+  .top-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 36px;
+    background-color: rgb(54, 53, 53);
+    text-align: right;
+    width: 100%;
+    color: white;
+  }
+
+  .top-menu-wrap {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    right: 0;
+    padding: 0;
+    margin-right: 120px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+  }
+
+  .top-menu-wrap li a {
+    color: rgb(255, 255, 255);
+    font-size: 0.7em;
+    text-decoration: none;
+  }
+
+  .facebook-page {
+    width: 9px;
+    height: 18px;
+    color: #fff;
+  }
+
+  .twitter-page {
+    width: 20px;
+    height: 17px;
+  }
+
+  .partner-about {
+    display: none;
+  }
+
+  .footer-about {
+    background-color: #3d3d3d;
+  }
+
+  .footer-text-about {
+    color: #fff;
+  }
+
+  .padding-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
