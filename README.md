@@ -64,7 +64,7 @@ GitHub & Visual Studio Code
 
 ## 🔭 Video Presentation <a name="video"></a>
 
-- [Video Presentation](#)
+- [Video Presentation](https://www.loom.com/share/d4b8f83df4aa4c949cc1f542906e6d43)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
